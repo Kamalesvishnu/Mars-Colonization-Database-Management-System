@@ -1,0 +1,23 @@
+## Ignore Visual Studio temp files and user configurations
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build outputs except the pre-compiled executable
+**/obj/
+**/bin/[Release]/
+**/bin/Debug/*.pdb
+**/bin/Debug/*.xml
+**/bin/Debug/*.config
+
+## Ignore temporary extraction folders and logs
+temp_extracted_docx/
+extracted_media/
+tech_doc_media/
+
+## Ignore other temp files
+~$*.docx
+~$*.xlsx
+*.tmp
